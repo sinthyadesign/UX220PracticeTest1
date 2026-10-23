@@ -1,17 +1,86 @@
+
 <!DOCTYPE html>
 <html>
 
 <head>
     <title>Question 3</title>
-    <!-- 
-Write an article using semantic markup, header, footer, main and section. In the article compare and contrast old fashioned typesetting with desktop pubishing, html and css.
-Color the header with white text on a blue background, the footer with white text on a green background, the main portion with black text o a parchment colored background. 
-Make the nouns in the header and footer have a text weight of 600, while the rest of the text has a font-weight of 400.
-    -->
-        
+
+    <style>
+        body {
+            margin: 0;
+            font-family: serif;
+            font-weight: 400;
+        }
+
+        header {
+            color: white;
+            background-color: blue;
+            padding: 20px;
+            font-weight: 400;
+        }
+
+        footer {
+            color: white;
+            background-color: green;
+            padding: 20px;
+            font-weight: 400;
+        }
+
+        main {
+            color: black;
+            background-color: #F5E6C8;
+            padding: 20px;
+            font-weight: 400;
+        }
+
+        header strong,
+        footer strong {
+            font-weight: 600;
+        }
+    </style>
 </head>
 
 <body>
+
+    <header>
+        <h1><strong>Typesetting</strong> and <strong>Publishing</strong></h1>
+        <p>How <strong>Technology</strong> changed the way we create <strong>Documents</strong></p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Old-Fashioned Typesetting</h2>
+            <p>
+                Back before computers, typesetting was a hands-on job—you had to line up each letter, piece by piece, just to build a single page. It was slow, and you really had to pay attention to get everything straight. If you wanted to change something, you couldn’t just hit a key. You’d have to take the page apart and start over by hand. It was pretty tedious work.
+            </p>
+        </section>
+
+        <section>
+            <h2>Desktop Publishing</h2>
+            <p>
+                Desktop publishing changed everything. Suddenly, people could sit down at a computer and move text and pictures around until everything looked just right. Editing was a breeze—you spotted a mistake, fixed it, and kept going. If you wanted to test out a new layout, you could just try it, no need to start over. Creating documents got a whole lot quicker and a lot less frustrating.
+            </p>
+        </section>
+
+        <section>
+            <h2>HTML and CSS</h2>
+            <p>
+                HTML and CSS are the tools behind every web page you see. HTML sets up the structure—think headings, paragraphs, links, and all the basic parts of the page. CSS steps in to handle the look and feel, like colors, fonts, and how everything lines up. The best part? You can tweak things right in the code and instantly see the changes pop up in your browser. It’s a lot more flexible than old-school typesetting.
+            </p>
+        </section>
+
+        <section>
+            <h2>Comparing the Methods</h2>
+            <p>
+                All three methods help organize text so people can read it easily. The big difference is in how you actually put everything together. With traditional typesetting, people had to handle everything by hand—lots of manual work. Desktop publishing brought in design software, which sped things up and made layouts more flexible. And then there’s HTML and CSS. Now, you build web pages by writing code instead. Each new method made things simpler and let us share information in smarter ways as technology moved forward.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Created for <strong>UX220</strong> | <strong>HTML</strong> and <strong>CSS</strong> Practice</p>
+    </footer>
+
 </body>
 
 </html>
